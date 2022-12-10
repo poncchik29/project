@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: rgb(197, 108, 0);
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+.container {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  width: 250px;
+  height: 500px;
+  margin: 0 auto;
+  color: rgb(255, 255, 255);
+  background-image: url(./img/pick4.jpg);
+}
+.search {
+  text-align: center;
+  width: 100%;
+  outline: none;
+  background: none;
+  color: rgb(255, 255, 255);
+  font-size: 45px;
+  border: none;
+  margin: 60px 0;
+  padding: 5px 0;
+}
+.change-text {
+  font-size: 25px;
+  text-align: center;
+  color: red;
+  font-weight: 800;
+}
+#temp {
+  text-align: center;
+  font-size: 80px;
+}
+.btn-change-bg {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  margin-top: 80px;
+}
+::placeholder {
+  color: rgb(74, 255, 61);
+}
